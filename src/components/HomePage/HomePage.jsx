@@ -1,5 +1,6 @@
 import styles from "./HomePage.module.css";
 import Logo from "@/components/Logo";
+import BarMenu from "@/components/BarMenu";
 
 // All packages except `@mantine/hooks` require styles imports
 import "@mantine/core/styles.css";
@@ -57,6 +58,7 @@ export default function HomePage() {
 									size="sm"
 								/>
 								<Logo />
+								<BarMenu />
 							</Group>
 						</AppShell.Header>
 						<AppShell.Navbar p="md">

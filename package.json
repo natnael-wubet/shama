@@ -17,6 +17,7 @@
     "@mantine/core": "^7.11.2",
     "@mantine/hooks": "^7.11.2",
     "@mantinex/mantine-logo": "^1.0.1",
+    "@tabler/icons-react": "^3.11.0",
     "@telegram-apps/telegram-ui": "^2.1.4",
     "@tonconnect/ui-react": "^2.0.5",
     "@twa-dev/sdk": "^7.0.0",
@@ -24,6 +25,7 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eruda": "^3.0.1",
+    "postcss-preset-mantine": "^1.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.24.0"
