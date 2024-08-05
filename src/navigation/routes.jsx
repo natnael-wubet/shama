@@ -4,6 +4,7 @@ import { LaunchParamsPage } from '@/pages/LaunchParamsPage/LaunchParamsPage.jsx'
 import { ThemeParamsPage } from '@/pages/ThemeParamsPage/ThemeParamsPage.jsx';
 import { TONConnectPage } from '@/pages/TONConnectPage/TONConnectPage';
 
+import HomePage from "@/components/HomePage";
 /**
  * @typedef {object} Route
  * @property {string} path
@@ -16,7 +17,7 @@ import { TONConnectPage } from '@/pages/TONConnectPage/TONConnectPage';
  * @type {Route[]}
  */
 export const routes = [
-  { path: '/', Component: IndexPage },
+  { path: '/', Component: HomePage },
   { path: '/init-data', Component: InitDataPage, title: 'Init Data' },
   { path: '/theme-params', Component: ThemeParamsPage, title: 'Theme Params' },
   { path: '/launch-params', Component: LaunchParamsPage, title: 'Launch Params' },
